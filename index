@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <style>
+            .size{font-size: large;}
+            .box1{margin: 0 auto;
+            width: 20%;}
+        </style>
+    </head>
+    <body>
+        <div class="box1">
+        <form action="hello-1.html">
+            <p>帳號：<input type="text"></p>
+            <p>密碼：<input type="password"></p>
+            年齡：<input type="radio" name="userage">15歲以下
+            <input type="radio" name="userage">15~30
+            <input type="radio" name="userage">31~45<br>
+            興趣：<input type="checkbox" name="interest">游泳
+            <input type="checkbox" name="interest">跑步
+            <input type="checkbox" name="interest">攀岩<br>
+            所在地：
+            <select class="size">
+                <option value="">請選擇</option>
+                <option value="">峨眉鄉</option>
+                <option value="">寶山鄉</option>
+                <option value="">尖石鄉</option>
+                <option value="">橫山鄉</option>
+                <option value="">五峰鄉</option>
+            </select><br>
+            電子信箱：<input type="email"><br>
+            體重：<input type="number" min="30" max="200"><br>
+            身高：100<input type="range" min="100" max="245">245<br>
+            喜歡的顏色：<input type="color"><br>
+            與我們分享：<br>
+            <textarea name="comment" cols="25%" rows="10%"></textarea><br>
+
+            <input type="submit" value="登入">
+
+        </form>
+    </div>
+    </body>
+</html>
